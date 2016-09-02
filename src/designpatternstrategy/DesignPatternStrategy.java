@@ -20,7 +20,7 @@ public class DesignPatternStrategy {
         
         System.out.println("***Strategy Pattern Demo***");
         Scanner in = new Scanner(System.in);//To take input from user
-        IChoice ic = null;
+        IChoice ic;
         Context cxt = new Context();
         String input1, input2;
         
